@@ -413,53 +413,27 @@ alt="GitHub Trophies"
 
 <div align="center">
 
-<img
-src="https://raw.githubusercontent.com/carolinesimoeslima1/carolinesimoeslima1/output/github-contribution-grid-snake-dark.svg"
-width="95%"
-alt="Snake Contribution Animation"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/carolinesimoeslima1/carolinesimoeslima1/output/github-contribution-grid-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/carolinesimoeslima1/carolinesimoeslima1/output/github-contribution-grid-snake.svg"
+  />
+
+  <img
+    src="https://raw.githubusercontent.com/carolinesimoeslima1/carolinesimoeslima1/output/github-contribution-grid-snake.svg"
+    width="95%"
+    alt="Snake Contribution Animation"
+  />
+
+</picture>
 
 </div>
 
-<details>
-<summary>🐍 Configuração da Snake Animation</summary>
-
-<br>
-
-Crie o arquivo:
-
-```text
-.github/workflows/snake.yml
-```
-
-Use o workflow abaixo:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-        env:
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-```
 
 </details>
 
