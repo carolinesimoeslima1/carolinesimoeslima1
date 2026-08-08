@@ -447,11 +447,11 @@ alt="GitHub Trophies"
 <img src="https://img.shields.io/badge/GitHub-050816?style=for-the-badge&logo=github&logoColor=00E5FF"/>
 </a>
 
-<a href="https://www.linkedin.com/">
+<a href="https://www.linkedin.com/in/caroline-sim%C3%B5es-lima-68a801171">
 <img src="https://img.shields.io/badge/LinkedIn-050816?style=for-the-badge&logo=linkedin&logoColor=00E5FF"/>
 </a>
 
-<a href="https://www.instagram.com/">
+<a href="https://www.instagram.com/casimoesl">
 <img src="https://img.shields.io/badge/Instagram-050816?style=for-the-badge&logo=instagram&logoColor=FF00AA"/>
 </a>
 
