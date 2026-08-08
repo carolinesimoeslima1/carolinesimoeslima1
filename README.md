@@ -351,24 +351,6 @@ STATUS: EVOLVING ███████████████░░░░
 
 ---
 
-# `> GITHUB_ANALYTICS.init()`
-
-<div align="center">
-
-<img
-height="180"
-src="https://github-readme-stats.vercel.app/api?username=carolinesimoeslima1&show_icons=true&hide_border=true&bg_color=050816&title_color=00E5FF&icon_color=8A2BE2&text_color=C9D1D9&ring_color=00E5FF&include_all_commits=true&count_private=true"
-alt="GitHub Stats"
-/>
-
-<img
-height="180"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=carolinesimoeslima1&layout=compact&hide_border=true&bg_color=050816&title_color=00E5FF&text_color=C9D1D9&langs_count=6"
-alt="Top Languages"
-/>
-
-</div>
-
 <br>
 
 <div align="center">
