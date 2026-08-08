@@ -377,20 +377,6 @@ alt="GitHub Activity Graph"
 
 ---
 
-# `> TROPHIES.unlock()`
-
-<div align="center">
-
-<img
-src="https://github-profile-trophy.vercel.app/?username=carolinesimoeslima1&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7"
-width="95%"
-alt="GitHub Trophies"
-/>
-
-</div>
-
----
-
 # `> CONTRIBUTION_MATRIX.render()`
 
 <div align="center">
